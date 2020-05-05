@@ -152,6 +152,5 @@ fn get_hopalong(alpha: f64, beta: f64, delta: f64, iterations: usize, n_points: 
         }
     }
 
-    println!("Alpha: {:.3}, Beta: {:.3}, Delta: {:.3}", hopa.alpha, hopa.beta, hopa.delta);
     return raster;
 }
